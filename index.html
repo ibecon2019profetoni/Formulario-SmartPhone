@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- HTML Meta Tags -->
-    <title>Plantilla</title>
+    <title>Formulario</title>
     <meta name="description" content="">
 
     <!-- Google / Search Engine Tags -->
@@ -34,6 +34,16 @@
 
 </head>
 <body>
-    
+
+    <h4 class="titulo">formulario de contacto</h4>
+    <form action="enviar.html" method="post">
+        <input type="text" name="nombre" id="nombre" placeholder="* nombre">    
+        <input type="text" name="apellidos" id="apellidos" placeholder="* apellidos">
+        <input type="text" name="movil" id="movil" placeholder="móvil">
+        <input type="email" name="email" id="email" placeholder="* email">
+        <textarea name="comentario" id="comentario" rows="10">* comentario</textarea>
+        <button type="submit">enviar</button>
+    </form>
+
 </body>
 </html>
