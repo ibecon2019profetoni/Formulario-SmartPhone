@@ -6,15 +6,33 @@
 /* *************** */
 
 /* Tipografía */
-
+html{
+    font-family: arial, sans-serif;
+    font-size: 16px;
+}
 
 /* Colores */
+body{
+    background-color: #F5F5F5;
+}
+.titulo{
+    color: #6f6f6f;
+}
+::placeholder, #comentario{
+    color: #a0a0a0;
+}
+#comentario{
+    color: #d0d0d0;
+}
 
 
 /* Enlaces */
 
 
 /* Botones */
-
+button{
+    background-color: #C7C7C7;
+    border: 0;
+}
 
 /* Margenes */
